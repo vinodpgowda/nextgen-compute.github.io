@@ -1,1 +1,3 @@
-# nextgen-compute.github.io
+# Next Generation Computation
+
+## Portfolio website for the lab
