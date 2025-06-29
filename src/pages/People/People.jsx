@@ -16,7 +16,7 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/muhammad-rashedul-haq-rashed/'
     },
     {
-        photo: '/images/people/sifat.jpeg',
+        photo: '/images/people/Sifat.jpeg',
         name: 'Md Belal Uddin Sifat',
         title: 'Ph.D. Student',
         about: 'Sifat is a Ph.D. student focusing on developing future computing systems and accelerate AI applications utilizing emerging computing paradigms.',
@@ -27,7 +27,7 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/md-belal-uddin-sifat-699138281'
     },
     {
-        photo: '/images/people/arpita.jpg',
+        photo: '/images/people/Arpita.jpg',
         name: 'Arpita Das',
         title: 'Ph.D. Student',
         about: 'Arpita Das is a Ph.D. student at the University of Texas at Arlington.',
@@ -38,7 +38,7 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/aprita-das-73505b1a2/'
     },
     {
-        photo: '/images/people/vinod.jpg',
+        photo: '/images/people/Vinod.jpg',
         name: 'Vinod Kumar Puttamadegowda',
         title: 'Research Assistant',
         about: 'Vinod is a research assistant working on building and maintaining the NextGen Compute Lab website and assisting with in-memory computing research projects.',
