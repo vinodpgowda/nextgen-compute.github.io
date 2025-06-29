@@ -4,7 +4,6 @@ import Navbar from './components/Header/Navbar';
 import Home from './pages/Home/Home';
 import Publications from './pages/Publications/Publications';
 import Projects from './pages/Projects/Projects';
-import Courses from './pages/Courses/Courses';
 import People from './pages/People/People';
 import Contact from './pages/Contact/Contact';
 import Outreach from './pages/Outreach/Outreach';
@@ -21,7 +20,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/publications" element={<Publications />} />
             <Route path="/projects" element={<Projects />} />
-            {/* <Route path="/courses" element={<Courses />} /> */}
             <Route path="/people" element={<People />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/outreach" element={<Outreach />} />
