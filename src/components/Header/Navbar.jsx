@@ -13,9 +13,10 @@ const Navbar = () => {
                 <nav className={styles.nav}>
                     <Link to="/" className={styles.navLink}>Home</Link>
                     <Link to="/publications" className={styles.navLink}>Publications</Link>
-                    <Link to="/people" className={styles.navLink}>People</Link>
                     <Link to="/projects" className={styles.navLink}>Projects</Link>
-                    <Link to="/courses" className={styles.navLink}>Courses</Link>
+                    <Link to="/outreach" className={styles.navLink}>Outreach</Link>
+                    <Link to="/people" className={styles.navLink}>People</Link>
+                    {/* <Link to="/courses" className={styles.navLink}>Courses</Link> */}
                     <Link to="/contact" className={styles.navLink}>Contact</Link>
                 </nav>
             </header>
