@@ -5,7 +5,7 @@ const Footer = () => (
     <footer className={styles.footer}>
         <div className={styles.content}>
             <span>
-                © {new Date().getFullYear()} NextGen Compute Lab, The University of Texas at Arlington
+                © {new Date().getFullYear()} NextGen Computing Lab, The University of Texas at Arlington
             </span>
         </div>
     </footer>
