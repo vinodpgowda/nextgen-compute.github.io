@@ -111,12 +111,12 @@ const projects = [
     },
     {
         "title": "AI-Aided Synthesis and Verification",
-        "briefDescription": "Robust computing systems resilient to hardware faults and variations",
-        "fullDescription": "This project addresses the reliability challenges in emerging memory technologies by developing fault-tolerant computing architectures. We investigate various fault models including stuck-at faults, transient faults, and process variations. Our approach combines circuit-level redundancy, algorithm-level error correction, and system-level fault detection. The project includes comprehensive fault injection studies, reliability modeling, and experimental validation on fabricated chips. Results demonstrate 99.9% fault coverage with less than 10% overhead in area and power.",
+        "briefDescription": "Deployment of AI to explore new frontiers of EDA solutions",
+        "fullDescription": "This project aims to create new algorithms and synthesis flows using AI. Many synthesis and verification problems within emerging computing systems are limited by sub-optimal solutions. AI-aided design explorations can lead to new and improved solutions to these problems. This research direction promises breakthroughs for many sub-optimal solutions where we today rely on human expertise to perform design.",
         "links": [
             {
                 "label": "Paper",
-                "url": "https://ieeexplore.ieee.org/abstract/document/10247692"
+                "url": "https://ieeexplore.ieee.org/document/10670630"
             },
         ],
         "images": ["/images/projects/AI-Aided-Synthesis-and-Verification.png"]
