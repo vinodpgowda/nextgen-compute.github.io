@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <header className={styles.header}>
                 <div className={styles.logoContainer}>
-                    <h1 className={styles.title}>NextGen Compute Lab</h1>
+                    <h1 className={styles.title}>NextGen Computing Lab</h1>
                     <h2 className={styles.subtitle}>The University of Texas at Arlington</h2>
                 </div>
                 <nav className={styles.nav}>
