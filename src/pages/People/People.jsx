@@ -122,8 +122,16 @@ const People = () => {
                         <h3 className={styles.name}>{person.name}</h3>
                         <p className={styles.title}>{person.title}</p>
                         <p className={styles.about}>{person.about}</p>
-                        <div className={styles.section}><strong>Research Interests:</strong> {person.research}</div>
-                        <div className={styles.section}><strong>Education:</strong> {person.education}</div>
+                        {!person.title.toLowerCase().includes('professor') && (
+                            <>
+                                <div className={styles.section}>
+                                    <strong>Research Interests:</strong> {person.research}
+                                </div>
+                                <div className={styles.section}>
+                                    <strong>Education:</strong> {person.education}
+                                </div>
+                            </>
+                        )}
                         <div className={styles.connections}>
                             <a href={`mailto:${person.email}`} className={styles.icon} title="Email"><MdEmail /></a>
                             <a href={person.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub"><FaGithub /></a>
