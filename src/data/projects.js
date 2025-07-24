@@ -55,16 +55,16 @@ const projects = [
     },
     {
         "title": "Resilient and Robust AI Systems",
-        "briefDescription": "High-performance streaming data processing using in-memory computing architectures",
-        "fullDescription": "STREAM addresses the growing need for real-time data processing by implementing streaming-based computation directly in memory. This project develops specialized hardware accelerators that can process continuous data streams with minimal latency. The system supports various streaming algorithms including filtering, aggregation, and pattern matching. Our experimental results show 5x throughput improvement and 3x latency reduction compared to CPU-based streaming systems. The project includes both FPGA and ASIC implementations.",
+        "briefDescription": "Bridging the software-hardware gap to boost AI system performance and precision.",
+        "fullDescription": "This research enhances the performance and reliability of AI systems by addressing the gap between software models and physical implementations. The work introduces two key strategies: first, optimizing the physical layout of data at compile-time to mitigate hardware-induced precision errors; and second, a novel data- and location-aware memory controller architecture that resolves performance inconsistencies in emerging memory technologies. Together, these approaches significantly improve both the computational precision and overall speed of AI hardware.",
         "links": [
             {
                 "label": "Paper1",
-                "url": "https://dl.acm.org/doi/abs/10.1145/3489517.3530532"
+                "url": "https://dl.acm.org/doi/10.1145/3489517.3530532"
             },
             {
                 "label": "Paper2",
-                "url": "https://dl.acm.org/doi/abs/10.1145/3466752.3480054"
+                "url": "https://dl.acm.org/doi/10.1145/3466752.3480054"
             }
         ],
         "images": ["/images/projects/Resilient-and-Robust-AI-Systems.png"]
