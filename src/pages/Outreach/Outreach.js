@@ -11,6 +11,13 @@ const Outreach = () => {
             image: '/images/outreach/Outreach1.jpg',
             date: 'June 2025',
         },
+        {
+            id: 2,
+            title: 'UR2PHD program',
+            description: 'Two undergraduate researchers and one graduate student from the NextGen Computing Lab participated in the UR2PHD program in Summer 25.',
+            image: '/images/outreach/Outreach2.png',
+            date: 'Summer 2025',
+        },
     ];
 
     return (
