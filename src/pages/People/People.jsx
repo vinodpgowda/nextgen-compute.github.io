@@ -16,7 +16,7 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/muhammad-rashedul-haq-rashed/'
     },
     {
-        photo: '/images/people/Sifat.jpeg',
+        photo: '/images/people/Sifat2.jpg',
         name: 'Md Belal Uddin Sifat',
         title: 'Ph.D. Student',
         about: 'Sifat is a Ph.D. student focusing on developing future computing systems and accelerate AI applications utilizing emerging computing paradigms.',
