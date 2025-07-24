@@ -35,19 +35,19 @@ const projects = [
         "fullDescription": "This research focuses on developing a fully automated synthesis framework that maps computational tasks efficiently onto in-memory architectures. By eliminating manual, sub-optimal design choices and introducing end-to-end automation and optimization strategies, the framework significantly improves performance and energy efficiency. This work contributes to the broader goal of enabling scalable, high-performance computing for next-generation data-driven applications.",
         "links": [
              {
-                "label": "Paper2",
+                "label": "Paper1",
                 "url": "https://dl.acm.org/doi/10.1145/3649329.3657348"
             },
             {
-                "label": "Paper1",
+                "label": "Paper2",
                 "url": "https://dl.acm.org/doi/10.1145/3711848"
             },
             {
-                "label": "Paper2",
+                "label": "Paper3",
                 "url": "https://ieeexplore.ieee.org/document/10323667"
             },
             {
-                "label": "Paper3",
+                "label": "Paper4",
                 "url": "https://dl.acm.org/doi/10.1145/3508352.3549348"
             }
         ],
