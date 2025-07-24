@@ -123,7 +123,7 @@ const projects = [
                 "url": "https://ieeexplore.ieee.org/document/10670630"
             },
         ],
-        "images": ["/images/projects/AI-Aided-Synthesis-and-Verification.png"]
+        "images": ["/images/projects/AI-Aided-Synthesis-and-Verification1.jpg"]
     }
 ];
 
