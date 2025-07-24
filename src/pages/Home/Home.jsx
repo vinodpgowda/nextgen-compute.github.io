@@ -23,14 +23,14 @@ const Home = () => {
         <div className={styles.container}>
             <section className={styles.hero}>
                 <h1>Welcome to NextGen Computing Lab</h1>
-                <p>Advancing the frontiers of computing research and innovation</p>
+                <p>Towards building the future of high-performance, energy-efficient computing systems.</p>
             </section>
 
             <Carousel images={carouselImages} />
 
             <section className={styles.about}>
                 <h2>About Our Lab</h2>
-                <p>The NextGen Computing Lab at The University of Texas at Arlington is dedicated to pioneering research in next-generation computing technologies.</p>
+                <p>The NextGen Computing Lab focuses on addressing the growing challenges of modern data intensive applications such as large language models, computer vision, and digital twin technologies. As traditional computing systems reach their physical and architectural limits due to the end of Moore’s Law, Dennard scaling, and the rise of the memory wall bottleneck, our lab explores novel computing paradigms that minimize data movement and enhance energy efficiency. Aligned with major national initiatives, our research combines hardware software co-design, emerging technologies, and novel computing techniques to build scalable systems for next generation AI and scientific computing workloads.</p>
             </section>
         </div>
     );
