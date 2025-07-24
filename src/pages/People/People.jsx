@@ -41,7 +41,7 @@ const people = [
         photo: '/images/people/Vinod.jpg',
         name: 'Vinod Kumar Puttamadegowda',
         title: 'Research Assistant',
-        about: 'Vinod is a research assistant working on building and maintaining the NextGen Compute Lab website and assisting with in-memory computing research projects.',
+        about: 'Vinod is a research assistant working on building and maintaining the NextGen Computing Lab website and assisting with in-memory computing research projects.',
         research: 'Software Engineering, Gen AI, In-Memory Computing',
         education: 'M.S. in Computer Science, UT Arlington',
         email: 'vxp8556@mavs.uta.edu',
