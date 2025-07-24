@@ -62,8 +62,12 @@ const projects = [
                 "label": "Paper1",
                 "url": "https://dl.acm.org/doi/10.1145/3489517.3530532"
             },
-            {
+            {          
                 "label": "Paper2",
+                "url": "https://ieeexplore.ieee.org/abstract/document/10247692"
+            },
+            {
+                "label": "Paper3",
                 "url": "https://dl.acm.org/doi/10.1145/3466752.3480054"
             }
         ],
@@ -71,8 +75,8 @@ const projects = [
     },
     {
         "title": "Hybrid Computing",
-        "briefDescription": "Automated synthesis tools for digital in-memory computing circuits",
-        "fullDescription": "LOGIC is a comprehensive synthesis framework that automatically generates optimized digital in-memory computing circuits from high-level specifications. The tool supports various logic families and optimization objectives including area, power, and performance. Our synthesis engine uses advanced algorithms to explore the design space and find optimal implementations. The project includes a complete toolchain from RTL to GDSII, with support for multiple technology nodes. Experimental results demonstrate 40% area reduction and 30% power improvement compared to manual designs.",
+        "briefDescription": "Combining analog and digital computing paradigms for optimal performance.",
+        "fullDescription": "This project explores the synergy between analog and digital in-memory computing by developing hybrid architectures that leverage the strengths of both approaches. Analog computing provides high energy efficiency for certain operations, while digital computing offers precision and programmability. Our hybrid system dynamically switches between analog and digital modes based on the computational requirements. The project includes novel circuit designs, control algorithms, and system-level optimization techniques.",
         "links": [
             {
                 "label": "Paper1",
@@ -87,8 +91,8 @@ const projects = [
     },
     {
         "title": "Novel Architecture Design",
-        "briefDescription": "Combining analog and digital computing paradigms for optimal performance",
-        "fullDescription": "This project explores the synergy between analog and digital in-memory computing by developing hybrid architectures that leverage the strengths of both approaches. Analog computing provides high energy efficiency for certain operations, while digital computing offers precision and programmability. Our hybrid system dynamically switches between analog and digital modes based on the computational requirements. The project includes novel circuit designs, control algorithms, and system-level optimization techniques. Results show 2x energy efficiency improvement while maintaining digital precision levels.",
+        "briefDescription": "Accelerating AI with novel, efficient hardware architecture designs.",
+        "fullDescription": "This research focuses on designing and optimizing novel hardware architectures to accelerate artificial intelligence models. Key contributions include the development of new hardware frameworks designed for massive parallelism, which directly accelerate the core computational tasks within AI applications. Furthermore, the work introduces innovative hardware accelerators that leverage highly efficient, low-power functionalities. By embedding computational logic directly within the data pathways, these systems require only a one-time configuration, eliminating the need for frequent, power-intensive reprogramming during use.",
         "links": [
             {
                 "label": "Paper1",
@@ -100,14 +104,6 @@ const projects = [
             },
             {
                 "label": "Paper3",
-                "url": "https://ieeexplore.ieee.org/abstract/document/10361011"
-            },
-            {
-                "label": "Paper4",
-                "url": "https://ieeexplore.ieee.org/abstract/document/10247692"
-            },
-            {
-                "label": "Paper5",
                 "url": "https://ieeexplore.ieee.org/abstract/document/9712569"
             }
         ],
