@@ -23,7 +23,7 @@ const Home = () => {
         <div className={styles.container}>
             <section className={styles.hero}>
                 <h1>Welcome to NextGen Computing Lab</h1>
-                <p>Towards building the future of high-performance, energy-efficient computing systems.</p>
+                <p>Shaping the next generation of high-performance, energy-efficient computing systems.</p>
             </section>
 
             <Carousel images={carouselImages} />
