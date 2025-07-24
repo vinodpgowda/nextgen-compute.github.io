@@ -8,9 +8,9 @@ const people = [
         photo: '/images/people/Professor.png',
         name: 'Muhammed Rashed',
         title: 'Assistant Professor',
-        about: 'Mr. Rashed is an assistant professor in the CSE department at the University of Texas at Arlington.',
-        research: 'EDA for emerging computing paradigms, Artificial Intelligence Acceleration, and Sustainable Computing.',
-        education: 'Ph.D. in Computer Engineering, UCF',
+        about: 'Dr. Rashed is an assistant professor in the CSE department at the University of Texas at Arlington. His research focuses on electronic design automation for next-generation computing systems, artificial intelligence acceleration, and sustainable computing. His work has been published in top-tier venues such as DAC, MICRO, ICCAD, DATE, ASP-DAC, TCAD and TODAES. He has received numerous accolades, including the IEEE/ACM William J. McCalla Best Paper Award nomination at ICCAD 2022, the Publicity Paper regonition at DAC 2022, the Best Research Video Award at DAC 2021, the David T. and Jane M. Donaldson Memorial Graduate Scholarship in 2022, and the Dr. Alireza Seyedi Doctoral Research Innovation Scholarship in 2024.',
+        //research: 'EDA for emerging computing paradigms, Artificial Intelligence Acceleration, and Sustainable Computing.',
+       // education: 'Ph.D. in Computer Engineering, UCF',
         email: 'muhammad.rashed@uta.edu',
         github: 'https://mrhrashed.github.io',
         linkedin: 'https://www.linkedin.com/in/muhammad-rashedul-haq-rashed/'
