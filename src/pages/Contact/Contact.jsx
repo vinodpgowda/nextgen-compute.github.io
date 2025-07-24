@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div className={styles.card}>
                     <h2>Location</h2>
-                    <p>NextGen Compute Lab</p>
+                    <p>NextGen Computing Lab</p>
                     <p>The University of Texas at Arlington</p>
                     <p>Arlington, TX 76019</p>
                 </div>
