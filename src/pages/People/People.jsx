@@ -19,7 +19,7 @@ const people = [
         photo: '/images/people/Sifat2.jpg',
         name: 'Md Belal Uddin Sifat',
         title: 'Ph.D. Student',
-        about: 'Sifat is a Ph.D. student focusing on developing future computing systems and accelerate AI applications utilizing emerging computing paradigms.',
+       // about: 'Sifat is a Ph.D. student focusing on developing future computing systems and accelerate AI applications utilizing emerging computing paradigms.',
         research: 'Computer-Aided Design, In-Memory Computing',
         education: 'B.S. in Electrical and Electronics Engineering, CUET',
         email: 'mdbelaluddin.sifat@uta.edu',
