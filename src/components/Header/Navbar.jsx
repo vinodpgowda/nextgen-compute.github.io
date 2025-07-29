@@ -7,9 +7,12 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <header className={styles.header}>
                 <div className={styles.logoContainer}>
-                    <h1 className={styles.title}>NextGen Computing Lab</h1>
+                    <Link to="/" className={styles.titleLink}>
+                        <h1 className={styles.title}>NextGen Computing Lab</h1>
+                    </Link>
                     <h2 className={styles.subtitle}>The University of Texas at Arlington</h2>
                 </div>
+
                 <nav className={styles.nav}>
                     <Link to="/" className={styles.navLink}>Home</Link>
                     <Link to="/publications" className={styles.navLink}>Publications</Link>
