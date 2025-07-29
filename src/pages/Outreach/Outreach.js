@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Outreach.module.css';
 
 const Outreach = () => {
+
+    useEffect(() => {
+        document.title = "Outreach | NextGen Computing";
+    }, []);
+
     // Only one outreach activity for now
     const outreachActivities = [
         {
