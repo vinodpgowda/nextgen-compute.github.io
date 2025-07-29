@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Home.module.css';
 import Carousel from '../../components/Carousel/Carousel';
 import projects from '../../data/projects';
@@ -19,6 +19,10 @@ const carouselImages = projects.slice(0, carouselImageFiles.length).map((project
 }));
 
 const Home = () => {
+    useEffect(() => {
+        document.title = "Home | NextGen Computing";
+    }, []);
+
     return (
         <div className={styles.container}>
             <section className={styles.hero}>
