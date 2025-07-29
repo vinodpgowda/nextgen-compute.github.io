@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './People.module.css';
 import { MdEmail } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -10,7 +10,7 @@ const people = [
         title: 'Assistant Professor',
         about: 'Dr. Rashed is an assistant professor in the CSE department at the University of Texas at Arlington. His research focuses on electronic design automation for next-generation computing systems, artificial intelligence acceleration, and sustainable computing. His work has been published in top-tier venues such as DAC, MICRO, ICCAD, DATE, ASP-DAC, TCAD and TODAES. He has received numerous accolades, including the IEEE/ACM William J. McCalla Best Paper Award nomination at ICCAD 2022, the Publicity Paper regonition at DAC 2022, the Best Research Video Award at DAC 2021, the David T. and Jane M. Donaldson Memorial Graduate Scholarship in 2022, and the Dr. Alireza Seyedi Doctoral Research Innovation Scholarship in 2024.',
         //research: 'EDA for emerging computing paradigms, Artificial Intelligence Acceleration, and Sustainable Computing.',
-       // education: 'Ph.D. in Computer Engineering, UCF',
+        // education: 'Ph.D. in Computer Engineering, UCF',
         email: 'muhammad.rashed@uta.edu',
         github: 'https://mrhrashed.github.io',
         linkedin: 'https://www.linkedin.com/in/muhammad-rashedul-haq-rashed/'
@@ -111,6 +111,11 @@ const professors = people.filter(p => p.title.toLowerCase().includes('professor'
 const others = people.filter(p => !p.title.toLowerCase().includes('professor'));
 
 const People = () => {
+
+    useEffect(() => {
+        document.title = "People | NextGen Computing";
+    }, []);
+
     return (
         <div className={styles.container}>
             <h1>People</h1>

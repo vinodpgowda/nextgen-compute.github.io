@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Contact.module.css';
 import { MdEmail } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -12,6 +12,11 @@ const professor = {
 };
 
 const Contact = () => {
+
+    useEffect(() => {
+        document.title = "Contact | NextGen Computing";
+    }, []);
+
     return (
         <div className={styles.container}>
             <h1>Contact Us</h1>

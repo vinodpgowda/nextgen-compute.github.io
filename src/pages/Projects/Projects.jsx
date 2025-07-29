@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Projects.module.css';
 import projects from '../../data/projects';
 
 const Projects = () => {
+
+    useEffect(() => {
+        document.title = "Projects | NextGen Computing";
+    }, []);
+
     const [selectedProject, setSelectedProject] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 

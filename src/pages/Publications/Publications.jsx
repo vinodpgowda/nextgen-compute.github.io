@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Publications.module.css';
 import publications from '../../data/publications';
 
 const Publications = () => {
+
+    useEffect(() => {
+        document.title = "Publications | NextGen Computing";
+    }, []);
+
     // 1. Import all publications
     const publicationsByYear = publications.reduce((acc, pub) => {
         const year = pub.year;
