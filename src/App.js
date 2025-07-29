@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Header/Navbar';
 import Home from './pages/Home/Home';
 import Publications from './pages/Publications/Publications';
@@ -10,9 +10,24 @@ import Outreach from './pages/Outreach/Outreach';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
+function ScrollTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-PG6M1CQYP1', {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollTracker />
       <div className="App">
         <Navbar />
         <main className="main-content">
