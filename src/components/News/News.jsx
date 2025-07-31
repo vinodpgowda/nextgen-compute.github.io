@@ -3,7 +3,7 @@ import styles from './News.module.css';
 
 const news = [
     { title: "February 2025", description: "One paper got accepted at MDTS'25." },
-    { title: "December 2024", description: "One paper got accepted in ACM TODAES." },
+    { title: "January 2025", description: "One paper got accepted in ACM TODAES." },
     { title: "June 2024", description: "One paper got accepted at ICCAD'24." },
     { title: "February 2024", description: "Two papers got accepted at DAC'24." },
     { title: "November 2023", description: "One paper got accepted in IEEE TCAD." },
