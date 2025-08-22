@@ -91,6 +91,65 @@ h1 {
     transform: scale(1.25);
 }
 
+/* Past Members Section Styles */
+.pastMembersSection {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e0e0e0;
+}
+
+.pastMembersSection h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.pastMembersList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pastMemberItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #1976d2;
+    transition: all 0.2s ease;
+}
+
+.pastMemberItem:hover {
+    background: #e3f2fd;
+    transform: translateX(5px);
+}
+
+.pastMemberName {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.pastMemberPeriod {
+    color: #666;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+.pastMemberLinks {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.pastMemberLinks .icon {
+    font-size: 1.2rem;
+}
+
 @media (max-width: 700px) {
     .peopleRow {
         flex-direction: column;
@@ -102,5 +161,16 @@ h1 {
         max-width: 95vw;
         min-width: 0;
         padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+    }
+
+    .pastMemberItem {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    .pastMemberLinks {
+        align-self: flex-end;
     }
 }
