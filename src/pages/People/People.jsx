@@ -49,50 +49,6 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/vinodpgowda/'
     },
     {
-        photo: '/images/people/Default-man.png',
-        name: 'Rajat Kumar Kulkarni',
-        title: 'Research Assistant',
-        about: 'Rajat is a research assistant working on automating complex decision in in-memory computing utilizing LLMs and Data Science.',
-        research: 'Gen AI, Machine Learning, Data Science',
-        education: 'M.S. in Computer Science, UT Arlington',
-        email: 'rxk3672@mavs.uta.edu',
-        github: 'https://github.com/Rajatkul1998',
-        linkedin: 'https://www.linkedin.com/in/rajat-kulkarni-78623116a/'
-    },
-    {
-        photo: '/images/people/Rhyme.jpg',
-        name: 'Shah Arifur Rahman Rhyme',
-        title: 'Research Assistant',
-        about: 'Rhyme is a Computer Science undergraduate student working on a funded REU project on improving in memory processing capabilities using LLMs.',
-        research: 'Artificial Intelligence, Machine Learning',
-        education: 'B.S. in Computer Science, UT Arlington',
-        email: 'sxr9995@mavs.uta.edu',
-        github: 'https://github.com/shahRhyme007',
-        linkedin: 'https://www.linkedin.com/in/shah-rhyme'
-    },
-    {
-        photo: '/images/people/Angel.jpg',
-        name: 'Angel Singh Shrestha',
-        title: 'Undergraduate Researcher',
-        about: 'Angel is an undergraduate computer science student participating in the UR2PhD program and working on LLM acceleration research.',
-        research: 'LLM Acceleration',
-        education: 'B.S. in Computer Science, UT Arlington',
-        email: 'axs0359@mavs.uta.edu',
-        github: 'https://github.com/ngelw',
-        linkedin: 'https://www.linkedin.com/in/angelshrestha/'
-    },
-    {
-        photo: '/images/people/Default-woman.png',
-        name: 'Michelle Uslu',
-        title: 'Undergraduate Researcher',
-        about: 'Michelle is an undergraduate computer science student participating in the UR2PhD program and working on LLM acceleration research.',
-        research: 'LLM Acceleration',
-        education: 'B.S. in Computer Science, UT Arlington',
-        email: 'zxu8201@mavs.uta.edu',
-        github: '',
-        linkedin: ''
-    },
-    {
         photo: '/images/people/sanvi.jpeg',
         name: 'Sanvi Porwal',
         title: 'High School Research Volunteer',
@@ -104,6 +60,36 @@ const people = [
         linkedin: ''
     }
 
+];
+
+// Past members data
+const pastMembers = [
+
+    {
+        name: 'Shah Arifur Rahman Rhyme',
+        timePeriod: 'Fall 2024 - Summer 2025',
+        github: 'https://github.com/shahRhyme007',
+        linkedin: 'https://www.linkedin.com/in/shah-rhyme'
+    },
+    {
+        name: 'Angel Singh Shrestha',
+        timePeriod: 'Fall 2024 - Summer 2025',
+        github: 'https://github.com/ngelw',
+        linkedin: 'https://www.linkedin.com/in/angelshrestha/'
+    },
+    {
+        name: 'Michelle Uslu',
+        timePeriod: 'Fall 2024 - Summer 2025',
+        github: '',
+        linkedin: ''
+    },
+    {
+        name: 'Rajat Kumar Kulkarni',
+        timePeriod: 'Fall 2024 - Summer 2025',
+        github: 'https://github.com/Rajatkul1998',
+        linkedin: 'https://www.linkedin.com/in/rajat-kulkarni-78623116a/'
+    }
+    // Add more past members as needed
 ];
 
 // Separate professors and others
@@ -162,6 +148,31 @@ const People = () => {
                         </div>
                     </article>
                 ))}
+            </section>
+
+            {/* Past Members section */}
+            <section className={styles.pastMembersSection}>
+                <h2>Past Members</h2>
+                <div className={styles.pastMembersList}>
+                    {pastMembers.map((member, idx) => (
+                        <div className={styles.pastMemberItem} key={idx}>
+                            <span className={styles.pastMemberName}>{member.name}</span>
+                            <span className={styles.pastMemberPeriod}>({member.timePeriod})</span>
+                            <div className={styles.pastMemberLinks}>
+                                {member.github && (
+                                    <a href={member.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="Link 1">
+                                        <FaGithub />
+                                    </a>
+                                )}
+                                {member.linkedin && (
+                                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="Link 2">
+                                        <FaLinkedin />
+                                    </a>
+                                )}
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </section>
         </div>
     );
